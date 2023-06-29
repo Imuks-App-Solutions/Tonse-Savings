@@ -15,7 +15,7 @@ const SignUp = () => {
         {/* Google Button */}
         <button className="flex justify-center font-bold items-center gap-2 border-2 rounded-md py-2 border-gray-400">
           <img src={google} className=" object-cover h-8" />
-          <h1><a href="/Dashboard">Sign Up with Google</a></h1>
+          <h1>Sign Up with Google</h1>
         </button>
 
         {/* Apple Button */}
@@ -66,7 +66,7 @@ const SignUp = () => {
 
         <div className="flex justify-center w-full">
           <p className="text-gray-900 font-semibold">Already have an account?</p>
-          <a className="underline pl-1 font-bold" href="#">
+          <a className="underline pl-1 font-bold" href="/Dashboard">
             Login
           </a>
         </div>
