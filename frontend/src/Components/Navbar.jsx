@@ -40,8 +40,9 @@ const Navbar = () => {
 
         {/*Download CSV button*/}
         <div className="items-center text-sm font-semibold text-gray-800">
-          <button className="w-full px-3 justify-center items-center flex gap-1 p-1 hover:bg-gray-300 rounded-md border-gray-300 border-[0.1em]">
+          <a href='/home'  className="w-full px-3 justify-center items-center flex gap-1 p-1 hover:bg-gray-300 rounded-md border-gray-300 border-[0.1em]" > 
             <svg
+              href = "/Home"
               fill="none"
               stroke="currentColor"
               strokeLinecap="round"
@@ -54,7 +55,7 @@ const Navbar = () => {
               <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29" />
             </svg>
             Download CSV
-          </button>
+          </a>
         </div>
 
         {/*Add New User Button*/}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaEye } from "react-icons/fa";
+import { FaEye } from "react-icons";
 
 
 
@@ -27,19 +27,19 @@ function MemberInfo() {
               <hr></hr>
               <p>
                 <span style={{display: 'inline-block', width: '1000px'}}><img src='images/img_avatar.png' style={{ verticalAlign: 'middle', width: '50px', height: '50px', borderRadius: '50%'}} alt='' />Christofer Workman</span>         
-                <span style={{display: 'inline-block', width: '1000px', textAlign: 'right'}}>$2,490.00 &nbsp; &nbsp;<button style={{ backgroundColor: 'white', border:  'white', fontSize: '20px'}}> ></button></span>
+                <span style={{display: 'inline-block', width: '1000px', textAlign: 'right'}}>$2,490.00 &nbsp; &nbsp;<button style={{ backgroundColor: 'white', border:  'white', fontSize: '20px'}}></button></span>
               </p>
               <p>
                 <span style={{display: 'inline-block', width: '1000px'}}><img src='images/img_avatar.png' style={{ verticalAlign: 'middle', width: '50px', height: '50px', borderRadius: '50%'}} alt='' />Jaxson Rosser</span>                          
-                <span style={{display: 'inline-block', width: '1000px', textAlign: 'right'}}>$2,360.00 &nbsp; &nbsp;<button style={{ backgroundColor: 'white', border:  'white', fontSize: '20px'}}> ></button></span>
+                <span style={{display: 'inline-block', width: '1000px', textAlign: 'right'}}>$2,360.00 &nbsp; &nbsp;<button style={{ backgroundColor: 'white', border:  'white', fontSize: '20px'}}> </button></span>
               </p>
               <p>
                 <span style={{display: 'inline-block', width: '1000px'}}><img src="images/img_avatar2.png" style={{ verticalAlign: 'middle', width: '50px', height: '50px', borderRadius: '50%'}} alt='' />Mira Carder</span>                            
-                <span style={{display: 'inline-block', width: '1000px', textAlign: 'right'}}>$1,276.00 &nbsp; &nbsp;<button style={{ backgroundColor: 'white', border:  'white', fontSize: '20px'}}> ></button></span>
+                <span style={{display: 'inline-block', width: '1000px', textAlign: 'right'}}>$1,276.00 &nbsp; &nbsp;<button style={{ backgroundColor: 'white', border:  'white', fontSize: '20px'}}></button></span>
              </p>
              <p>
                 <span style={{display: 'inline-block', width: '1000px'}}><img src="images/img_avatar2.png" style={{ verticalAlign: 'middle', width: '50px', height: '50px', borderRadius: '50%'}} alt='' />Desirae Passaquindici Arcand</span>            
-                <span style={{display: 'inline-block', width: '1000px', textAlign: 'right'}}>$1,180.00 &nbsp; &nbsp;<button style={{ backgroundColor: 'white', border:  'white', fontSize: '20px'}}> ></button></span>
+                <span style={{display: 'inline-block', width: '1000px', textAlign: 'right'}}>$1,180.00 &nbsp; &nbsp;<button style={{ backgroundColor: 'white', border:  'white', fontSize: '20px'}}></button></span>
              </p>
         </article>
 
