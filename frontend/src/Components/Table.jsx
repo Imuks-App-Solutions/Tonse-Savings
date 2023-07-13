@@ -12,7 +12,7 @@ export const Table = () => {
           </p>
         </div>
         <div>
-          <button className="flex gap-1 items-center bg-black text-white px-2 py-1 rounded-md">
+          <a href="/Card" className="flex gap-1 items-center bg-black text-white px-2 py-1 rounded-md">
             <svg
               fill="none"
               stroke="currentColor"
@@ -27,7 +27,7 @@ export const Table = () => {
               <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29" />
             </svg>
             <span>Download all</span>
-          </button>
+          </a>
         </div>
       </div>
       <div className="flex w-full items-center text-sm">
@@ -96,7 +96,7 @@ export const Table = () => {
                 <td className=" w-full text-left flex justify-between">
                   <div className="text-gray-500">{val.users} users</div>
                   <div className="flex items-center">
-                    <button className="flex gap-1 items-center border text-black px-2 py-1 rounded-md">
+                    <button heref ="/Card" className="flex gap-1 items-center border text-black px-2 py-1 rounded-md">
                       <svg
                         fill="none"
                         stroke="currentColor"
