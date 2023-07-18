@@ -1,0 +1,72 @@
+.app {
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.balance-value {
+  font-size: 40px;
+  display: inline;
+}
+
+.balance {
+  font-size: 19px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: rgb(85, 85, 85);
+}
+
+.deposit-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 10px; /* Add some margin to push the deposit button down */
+}
+
+.deposit-btn {
+  background-color: #ffffff;
+  color: #165fb3;
+  padding: 10px 20px;
+  border: 2px solid lightblue;
+  border-radius: 16px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  display: inline;
+  align-items: center;
+}
+
+.deposit-btn:hover {
+  background-color: turquoise;
+}
+
+.deposit-btn::before {
+  content: '+';
+  margin-right: 5px;
+}
+
+.left-content {
+  text-align: left;
+  color: rgb(3, 3, 45);
+}
+
+.chart-container {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.app-container {
+  margin: 80px; /* Adjust margin as desired */
+  border-radius: 60px; /* Add round border */
+  box-shadow: 0 0 0 2px #dcdaf3; /* Add a smooth and seamless border using box-shadow */
+  overflow: hidden; /* Optional: Hide any overflow content within the container */
+}
