@@ -5,7 +5,7 @@ import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import Messageb from "./Pages/Messageb";
 import Card from "./Components/Card";
-import Chart from './Constants/Chart';
+import Chart from './Pages/Chart';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthContextProvider } from "./shared/authContext";
 

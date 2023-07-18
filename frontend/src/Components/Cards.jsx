@@ -67,7 +67,7 @@ const Cards = () => {
         </a>
       </div>
 
-      {/* Card 2-Left */}
+      {/* Card 2-Right */}
       <div className="flex bg-white shadow-md flex-col items-center md:w-1/2 w-full border px-3 py-4 rounded-md">
         <div className="flex w-full flex-col py-4 justify-start">
           <h1 className=" font-bold">Payment method</h1>
@@ -115,9 +115,9 @@ const Cards = () => {
             </div>
           </div>
           <div className="flex items-center">
-            <button className=" border bg-black text-white font-bold px-4 py-1 rounded-md">
+            <a href="/Messageb"  className=" border bg-black text-white font-bold px-4 py-1 rounded-md">
               Edit
-            </button>
+            </a>
           </div>
         </div>
       </div>

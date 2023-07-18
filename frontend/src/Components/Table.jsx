@@ -65,7 +65,7 @@ export const Table = () => {
                   <p>{val.invoiceName}</p>
                 </td>
 
-                <button className="flex gap-1 items-center bg-white text-black px-1 py-0 rounded-full">
+                <a href="/Chart" className="flex gap-1 items-center bg-white text-black px-1 py-0 rounded-full">
                   <svg
                     fill="none"
                     stroke="currentColor"
@@ -82,7 +82,7 @@ export const Table = () => {
                       ✔Paid
                     </h1>
                   </span>
-                </button>
+                </a>
 
                 <td className=" w-full text-left text-gray-500">
                   {val.billDate}
@@ -96,7 +96,7 @@ export const Table = () => {
                 <td className=" w-full text-left flex justify-between">
                   <div className="text-gray-500">{val.users} users</div>
                   <div className="flex items-center">
-                    <button heref ="/Card" className="flex gap-1 items-center border text-black px-2 py-1 rounded-md">
+                    <a heref ="/Card" className="flex gap-1 items-center border text-black px-2 py-1 rounded-md">
                       <svg
                         fill="none"
                         stroke="currentColor"
@@ -111,7 +111,7 @@ export const Table = () => {
                         <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29" />
                       </svg>
                       <span>Download</span>
-                    </button>
+                    </a>
                     <div>
                       <svg
                         viewBox="0 0 24 24"
