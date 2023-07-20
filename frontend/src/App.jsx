@@ -6,6 +6,7 @@ import Home from "./Pages/Home";
 import Messageb from "./Pages/Messageb";
 import Card from "./Components/Card";
 import Chart from './Pages/Chart';
+import Contact from './Pages/Contact';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { AuthContextProvider } from "./shared/authContext";
 
@@ -22,6 +23,7 @@ function App() {
             <Route path="/Card" element={<Card />} />
             <Route path="/Messageb" element={<Messageb />} />
             <Route path="/Chart" element={<Chart />} />
+            <Route path="/Contact" element={<Contact/>} />
           </Routes>
         </BrowserRouter>
       </AuthContextProvider>

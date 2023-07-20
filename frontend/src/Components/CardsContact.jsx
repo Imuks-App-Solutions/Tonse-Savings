@@ -1,4 +1,4 @@
-import { Details } from "../Constants/Details"
+import { Details } from "../Constants/DetailsContact.js"
 
 const Cards = () => {
   return (

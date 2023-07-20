@@ -1,5 +1,5 @@
-import Cards from "../Components/Cards"
-import Header from "../Components/Header"
+import Cards from "../Components/CardsContact"
+import Header from "../Components/HeaderContact"
 const Contact = () => {
   return (
     <>
