@@ -114,7 +114,7 @@ const Sidebar = () => {
           </div>
         </div>
 
-        {/* Row-4 Activity */}
+        {/* Row-5 Schedule */}
         <div className="flex border-b-[1.5px] flex-row pb-6 w-full items-center justify-between">
           <div className="flex w-full p-1 rounded-md items-center flex-row">
             <svg
@@ -312,9 +312,9 @@ const Sidebar = () => {
                 d="M208 54l8 132M296 186l8-132M208 458l8-132M296 326l8 132M458 208l-132 8M326 296l132 8M54 208l132 8M186 296l-132 8"
               />
             </svg>
-            <span className="w-full bg-inherit text-gray-800 flex px-2 placeholder-gray-600">
+            <a href = "/Contact" className="w-full bg-inherit text-gray-800 flex px-2 placeholder-gray-600">
               Help
-            </span>
+            </a>
           </div>
         </div>
 

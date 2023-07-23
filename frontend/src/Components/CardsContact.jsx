@@ -30,7 +30,7 @@ const Cards = () => {
             </div>
 
             {/* View Location Button */}
-            <a href="#" className=" w-full border-[1.5px] text-[#12074b] hover:border-none hover:bg-gray-200 transition-all duration-300 ease-in-out rounded-md py-1 my-5 text-center flex items-center justify-center border-[#12074b]">
+            <a href="/Map" className=" w-full border-[1.5px] text-[#12074b] hover:border-none hover:bg-gray-200 transition-all duration-300 ease-in-out rounded-md py-1 my-5 text-center flex items-center justify-center border-[#12074b]">
                 <span>View Location</span>
             </a>
             
