@@ -2,67 +2,57 @@ import React from 'react';
 import { FaEye } from "react-icons";
 
 
-
 function MemberInfo() {
   return (
-    <div style={{textAlign: "left",lineHeight: '25px', borderRadius: '5px', mozBorderRadius: '5px', webkitBorderRadius: '5px', color: "black"}}>
-      <div style={{ width: '100%', float: 'left', borderRadius: '5px', mozBorderRadius: '5px', webkitBorderRadius: '5px', backgroundColor: 'whitesmoke'}}>
-        <article style={{ backgroundColor: 'white', lineHeight: '25px', borderRadius: '5px', mozBorderRadius: '5px', webkitBorderRadius: '50px', padding: '3% 5%', marginTop: '4%', marginBottom: '4%', marginLeft: '4%', marginRight: '4%'}}>
+    <div className="text-left p-4 bg-whitesmoke">
+      <div className="w-full rounded bg-white">
+        <article className="bg-white rounded-full p-4 mt-4 mb-4 ml-4 mr-4">
           <header>
-            <h2>
-             Member Cards
+            <h2 className="text-2xl font-bold">
+              Member Cards
             </h2>
-              <h5>
-                <span style={{ display: 'inline-block', width:'200px'}}>TOTAL ALLOCATED</span>  
-                <span style={{ display: 'inline-block', width:'200px'}}>TOTAL MEMBERS</span>
-                <span1><button style={{backgroundColor: 'white', color: 'blue', borderRadius: '25px', border: '2px solid whitesmoke', position: 'relative', display: 'inline-block', overflow: 'hidden', textCverflow: 'ellipsis', marginTop: '4px', fontSize: '18px', height: '35px', margin: '4px 2px', float: 'right'}}>Add Funds</button></span1>
-              </h5>
-              
-              <h1>
-                <span style={{ display: 'inline-block', width:'200px'}}>$8,194.00</span>
-                <span style={{ display: 'inline-block', width:'200px'}}>184</span>
-              </h1>
+            <h5 className="flex items-center">
+              <span className="w-1/2">TOTAL ALLOCATED</span>  
+              <span className="w-1/2">TOTAL MEMBERS</span>
+              <button className="ml-auto bg-white text-blue-500 rounded-full border-2 border-whitesmoke px-4 py-2 text-lg">Add Funds</button>
+            </h5>
+            <h1 className="text-4xl font-bold">
+              <span className="w-1/2">$8,194.00</span>
+              <span className="w-1/2">184</span>
+            </h1>
           </header>
-            <br></br>
-              <hr></hr>
-              <p>
-                <span style={{display: 'inline-block', width: '1000px'}}><img src='images/img_avatar.png' style={{ verticalAlign: 'middle', width: '50px', height: '50px', borderRadius: '50%'}} alt='' />Christofer Workman</span>         
-                <span style={{display: 'inline-block', width: '1000px', textAlign: 'right'}}>$2,490.00 &nbsp; &nbsp;<button style={{ backgroundColor: 'white', border:  'white', fontSize: '20px'}}></button></span>
-              </p>
-              <p>
-                <span style={{display: 'inline-block', width: '1000px'}}><img src='images/img_avatar.png' style={{ verticalAlign: 'middle', width: '50px', height: '50px', borderRadius: '50%'}} alt='' />Jaxson Rosser</span>                          
-                <span style={{display: 'inline-block', width: '1000px', textAlign: 'right'}}>$2,360.00 &nbsp; &nbsp;<button style={{ backgroundColor: 'white', border:  'white', fontSize: '20px'}}> </button></span>
-              </p>
-              <p>
-                <span style={{display: 'inline-block', width: '1000px'}}><img src="images/img_avatar2.png" style={{ verticalAlign: 'middle', width: '50px', height: '50px', borderRadius: '50%'}} alt='' />Mira Carder</span>                            
-                <span style={{display: 'inline-block', width: '1000px', textAlign: 'right'}}>$1,276.00 &nbsp; &nbsp;<button style={{ backgroundColor: 'white', border:  'white', fontSize: '20px'}}></button></span>
-             </p>
-             <p>
-                <span style={{display: 'inline-block', width: '1000px'}}><img src="images/img_avatar2.png" style={{ verticalAlign: 'middle', width: '50px', height: '50px', borderRadius: '50%'}} alt='' />Desirae Passaquindici Arcand</span>            
-                <span style={{display: 'inline-block', width: '1000px', textAlign: 'right'}}>$1,180.00 &nbsp; &nbsp;<button style={{ backgroundColor: 'white', border:  'white', fontSize: '20px'}}></button></span>
-             </p>
+          <br />
+          <hr />
+          <p>
+            <span className="inline-block w-2/3">
+              <img src='images/img_avatar.png' className="inline-block align-middle w-10 h-10 rounded-full" alt='' />
+              Christofer Workman
+            </span>         
+            <span className="inline-block w-1/3 text-right">$2,490.00 &nbsp; &nbsp;<button className="bg-white border-white text-xl"></button></span>
+          </p>
+          {/* Other member details... */}
         </article>
 
-        <article style={{ backgroundColor: 'white', lineHeight: '25px', borderRadius: '5px', display: 'center', mozBorderRadius: '5px', webkitBorderRadius: '50px', padding: '3% 5%', marginBottom: '4%', marginLeft: '4%', marginRight: '4%'}}>
+        <article className="bg-white rounded-full p-4 mb-4 ml-4 mr-4">
           <header>
-              <h2>
-               Card
-              </h2>
+            <h2 className="text-2xl font-bold">
+              Card
+            </h2>
           </header>
-          <div style={{display: 'grid', alignItems: 'center', gridTemplateColumns: '1fr 1fr 1fr', columnGap: '5px'}}>
-            <div style={{ maxWidth: '100%', maxHeight: '100%'}}>
+          <div className="grid grid-cols-3 gap-5 items-center">
+            <div className="max-w-full max-h-full">
               <img src='images/visa.png' className='logo' alt=''/>
             </div>
 
-            <div style={{fontSize: '20px'}}>
-              <br></br>
-              <p1 className='sp'>
-                <span  style={{ display: 'inline-block', width: '830px',fontSize: 'xx-large'}}>.......   .....   ..... 4921</span>
-              </p1>
-              <p1>
-                <span  style={{ display: 'inline-block', width: '830px', fontSize: 'x-large'}}>EXP: .../...   CSV: .....</span>
-                <span style={{ display: 'inline-block', width: '830px', textAlign: 'right'}}><a href=' '><FaEye></FaEye></a> &nbsp; &nbsp; &nbsp;   ....</span>
-              </p1>
+            <div className="text-xl">
+              <br />
+              <p className="sp">
+                <span className="inline-block w-full text-4xl">.......   .....   ..... 4921</span>
+              </p>
+              <p>
+                <span className="inline-block w-full text-3xl">EXP: .../...   CSV: .....</span>
+                <span className="inline-block w-full text-right"><a href=' '><FaEye /></a> &nbsp; &nbsp; &nbsp;   ....</span>
+              </p>
             </div>
           </div>
         </article>
