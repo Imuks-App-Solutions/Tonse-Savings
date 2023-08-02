@@ -1,8 +1,9 @@
 import React from 'react';
-import { FaEye } from "react-icons";
 
 
-function MemberInfo() {
+
+const MemberInfo = () => {
+  
   return (
     <div className="text-left p-4 bg-whitesmoke">
       <div className="w-full rounded bg-white">
@@ -51,7 +52,7 @@ function MemberInfo() {
               </p>
               <p>
                 <span className="inline-block w-full text-3xl">EXP: .../...   CSV: .....</span>
-                <span className="inline-block w-full text-right"><a href=' '><FaEye /></a> &nbsp; &nbsp; &nbsp;   ....</span>
+                <span className="inline-block w-full text-right"><a href=' '></a> &nbsp; &nbsp; &nbsp;   ....</span>
               </p>
             </div>
           </div>
@@ -62,3 +63,4 @@ function MemberInfo() {
 }
 
 export default MemberInfo;
+

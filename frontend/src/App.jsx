@@ -1,7 +1,7 @@
 import "./App.css";
 import SignUp from "./Pages/SignUp";
 import Dashboard from "./Pages/Dashboard";
-import Membeinfo from "./Pages/Memberinfo";
+import MemberInfo from "./Pages/MemberInfo";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
 import Messageb from "./Pages/Messageb";
@@ -21,7 +21,7 @@ function App() {
             <Route index element={<SignUp />} />
             <Route path="/Signup" element={<SignUp />} />
             <Route path="/Dashboard" element={<Dashboard />} />
-            <Route path="/Memberinfo" element={<Memberinfo />} />
+            <Route path="/MemberInfo" element={<MemberInfo />} /> 
             <Route path="/Home" element={<Home />} />
             <Route path="/Card" element={<Card />} />
             <Route path="/Messageb" element={<Messageb />} />
